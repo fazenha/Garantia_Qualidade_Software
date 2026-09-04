@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.gqs.simples.RunCucumberTest" time="0.986" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/flavio/Repositorios/Garantia_Qualidade_Software/Aula4_pagamento-duplicado-simples/target/test-classes:/home/flavio/Repositorios/Garantia_Qualidade_Software/Aula4_pagamento-duplicado-simples/target/classes:/home/flavio/.m2/repository/io/cucumber/cucumber-java/7.18.0/cucumber-java-7.18.0.jar:/home/flavio/.m2/repository/io/cucumber/cucumber-core/7.18.0/cucumber-core-7.18.0.jar:/home/flavio/.m2/repository/io/cucumber/cucumber-gherkin/7.18.0/cucumber-gherkin-7.18.0.jar:/home/flavio/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.18.0/cucumber-gherkin-messages-7.18.0.jar:/home/flavio/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/home/flavio/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/home/flavio/.m2/repository/io/cucumber/testng-xml-formatter/0.1.0/testng-xml-formatter-0.1.0.jar:/home/flavio/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/home/flavio/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/home/flavio/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/home/flavio/.m2/repository/io/cucumber/datatable/7.18.0/datatable-7.18.0.jar:/home/flavio/.m2/repository/io/cucumber/cucumber-plugin/7.18.0/cucumber-plugin-7.18.0.jar:/home/flavio/.m2/repository/io/cucumber/docstring/7.18.0/docstring-7.18.0.jar:/home/flavio/.m2/repository/io/cucumber/html-formatter/21.3.1/html-formatter-21.3.1.jar:/home/flavio/.m2/repository/io/cucumber/junit-xml-formatter/0.4.0/junit-xml-formatter-0.4.0.jar:/home/flavio/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/home/flavio/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/flavio/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.18.0/cucumber-junit-platform-engine-7.18.0.jar:/home/flavio/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/home/flavio/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/flavio/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/flavio/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/home/flavio/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/flavio/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/flavio/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/home/flavio/.m2/repository/org/junit/platform/junit-platform-suite/1.10.2/junit-platform-suite-1.10.2.jar:/home/flavio/.m2/repository/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2.jar:/home/flavio/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.10.2/junit-platform-suite-engine-1.10.2.jar:/home/flavio/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.10.2/junit-platform-suite-commons-1.10.2.jar:/home/flavio/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/apache-netbeans/jdk/lib"/>
+    <property name="sun.java.command" value="/home/flavio/Repositorios/Garantia_Qualidade_Software/Aula4_pagamento-duplicado-simples/target/surefire/surefirebooter-20260904114312615_3.jar /home/flavio/Repositorios/Garantia_Qualidade_Software/Aula4_pagamento-duplicado-simples/target/surefire 2026-09-04T11-43-11_592-jvmRun1 surefire-20260904114312615_1tmp surefire_0-20260904114312615_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="com.gqs.simples.RunCucumberTest"/>
+    <property name="surefire.test.class.path" value="/home/flavio/Repositorios/Garantia_Qualidade_Software/Aula4_pagamento-duplicado-simples/target/test-classes:/home/flavio/Repositorios/Garantia_Qualidade_Software/Aula4_pagamento-duplicado-simples/target/classes:/home/flavio/.m2/repository/io/cucumber/cucumber-java/7.18.0/cucumber-java-7.18.0.jar:/home/flavio/.m2/repository/io/cucumber/cucumber-core/7.18.0/cucumber-core-7.18.0.jar:/home/flavio/.m2/repository/io/cucumber/cucumber-gherkin/7.18.0/cucumber-gherkin-7.18.0.jar:/home/flavio/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.18.0/cucumber-gherkin-messages-7.18.0.jar:/home/flavio/.m2/repository/io/cucumber/gherkin/28.0.0/gherkin-28.0.0.jar:/home/flavio/.m2/repository/io/cucumber/messages/24.1.0/messages-24.1.0.jar:/home/flavio/.m2/repository/io/cucumber/testng-xml-formatter/0.1.0/testng-xml-formatter-0.1.0.jar:/home/flavio/.m2/repository/io/cucumber/query/12.2.0/query-12.2.0.jar:/home/flavio/.m2/repository/io/cucumber/tag-expressions/6.1.0/tag-expressions-6.1.0.jar:/home/flavio/.m2/repository/io/cucumber/cucumber-expressions/17.1.0/cucumber-expressions-17.1.0.jar:/home/flavio/.m2/repository/io/cucumber/datatable/7.18.0/datatable-7.18.0.jar:/home/flavio/.m2/repository/io/cucumber/cucumber-plugin/7.18.0/cucumber-plugin-7.18.0.jar:/home/flavio/.m2/repository/io/cucumber/docstring/7.18.0/docstring-7.18.0.jar:/home/flavio/.m2/repository/io/cucumber/html-formatter/21.3.1/html-formatter-21.3.1.jar:/home/flavio/.m2/repository/io/cucumber/junit-xml-formatter/0.4.0/junit-xml-formatter-0.4.0.jar:/home/flavio/.m2/repository/io/cucumber/ci-environment/10.0.1/ci-environment-10.0.1.jar:/home/flavio/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/flavio/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.18.0/cucumber-junit-platform-engine-7.18.0.jar:/home/flavio/.m2/repository/org/junit/platform/junit-platform-engine/1.10.2/junit-platform-engine-1.10.2.jar:/home/flavio/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/flavio/.m2/repository/org/junit/platform/junit-platform-commons/1.10.2/junit-platform-commons-1.10.2.jar:/home/flavio/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.2/junit-jupiter-5.10.2.jar:/home/flavio/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.2/junit-jupiter-api-5.10.2.jar:/home/flavio/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.2/junit-jupiter-params-5.10.2.jar:/home/flavio/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.2/junit-jupiter-engine-5.10.2.jar:/home/flavio/.m2/repository/org/junit/platform/junit-platform-suite/1.10.2/junit-platform-suite-1.10.2.jar:/home/flavio/.m2/repository/org/junit/platform/junit-platform-suite-api/1.10.2/junit-platform-suite-api-1.10.2.jar:/home/flavio/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.10.2/junit-platform-suite-engine-1.10.2.jar:/home/flavio/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.10.2/junit-platform-suite-commons-1.10.2.jar:/home/flavio/.m2/repository/org/junit/platform/junit-platform-launcher/1.10.2/junit-platform-launcher-1.10.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/flavio"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-07-21"/>
+    <property name="java.home" value="/usr/lib/apache-netbeans/jdk"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/flavio/Repositorios/Garantia_Qualidade_Software/Aula4_pagamento-duplicado-simples"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/home/flavio/Repositorios/Garantia_Qualidade_Software/Aula4_pagamento-duplicado-simples/target/surefire/surefirebooter-20260904114312615_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="26.0.2+10"/>
+    <property name="user.name" value="flavio"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="7.0.0-30-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-26.0.2+10"/>
+    <property name="maven.ext.class.path" value="/usr/lib/apache-netbeans/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="localRepository" value="/home/flavio/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="26.0.2"/>
+    <property name="user.dir" value="/home/flavio/Repositorios/Garantia_Qualidade_Software/Aula4_pagamento-duplicado-simples"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="26.0.2+10"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="Aprovar o primeiro pagamento" classname="Bloqueio de pagamento duplicado" time="0.308">
+    <system-out><![CDATA[
+Cenário: Aprovar o primeiro pagamento   &amp#27;[90m# features/pagamento_duplicado.feature:6&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o pedido ainda não foi pago&amp#27;[0m  &amp#27;[90m# com.gqs.simples.steps.PagamentoSteps.que_o_pedido_ainda_nao_foi_pago()&amp#27;[0m
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mo cliente confirma o pagamento&amp#27;[0m &amp#27;[90m# com.gqs.simples.steps.PagamentoSteps.o_cliente_confirma_o_pagamento()&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo pagamento deve ser aprovado&amp#27;[0m   &amp#27;[90m# com.gqs.simples.steps.PagamentoSteps.o_pagamento_deve_ser_aprovado()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Bloquear uma segunda tentativa de pagamento" classname="Bloqueio de pagamento duplicado" time="0.076">
+    <system-out><![CDATA[
+Cenário: Bloquear uma segunda tentativa de pagamento &amp#27;[90m# features/pagamento_duplicado.feature:11&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o pedido já foi pago&amp#27;[0m                      &amp#27;[90m# com.gqs.simples.steps.PagamentoSteps.que_o_pedido_ja_foi_pago()&amp#27;[0m
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mo cliente confirma o pagamento novamente&amp#27;[0m    &amp#27;[90m# com.gqs.simples.steps.PagamentoSteps.o_cliente_confirma_o_pagamento_novamente()&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mo pagamento deve ser rejeitado&amp#27;[0m               &amp#27;[90m# com.gqs.simples.steps.PagamentoSteps.o_pagamento_deve_ser_rejeitado()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Bloquear pagamentos que chegam ao mesmo tempo" classname="Bloqueio de pagamento duplicado" time="0.093">
+    <system-out><![CDATA[
+Cenário: Bloquear pagamentos que chegam ao mesmo tempo      &amp#27;[90m# features/pagamento_duplicado.feature:16&amp#27;[0m
+  &amp#27;[32mDado &amp#27;[0m&amp#27;[32mque o pedido ainda não foi pago&amp#27;[0m                      &amp#27;[90m# com.gqs.simples.steps.PagamentoSteps.que_o_pedido_ainda_nao_foi_pago()&amp#27;[0m
+  &amp#27;[32mQuando &amp#27;[0m&amp#27;[32mduas tentativas de pagamento chegam ao mesmo tempo&amp#27;[0m &amp#27;[90m# com.gqs.simples.steps.PagamentoSteps.duas_tentativas_de_pagamento_chegam_ao_mesmo_tempo()&amp#27;[0m
+  &amp#27;[32mEntão &amp#27;[0m&amp#27;[32mapenas uma delas deve ser aprovada&amp#27;[0m                  &amp#27;[90m# com.gqs.simples.steps.PagamentoSteps.apenas_uma_delas_deve_ser_aprovada()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
