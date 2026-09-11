@@ -1,7 +1,7 @@
 package com.mycompany.pmd.checkstyle;
 
-//import java.util.logging.Level;
-//import java.util.logging.Logger;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 
 /**
@@ -17,9 +17,9 @@ public class EmprestimoService {
         da classe. Se fosse necessário, o certo seria de fato usá-lo (ex.:
         registrar essa mensagem em log), não apenas declará-lo.
     */
-    //private static final Logger LOGGER = Logger.getLogger(EmprestimoService.class.getName());
+    private static final Logger LOGGER = Logger.getLogger(EmprestimoService.class.getName());
     
-    private String mensagemDebug = "DEBUG_MODE_ATIVO";
+    //private String mensagemDebug = "DEBUG_MODE_ATIVO";
 
     public boolean registrarEmprestimo(int atraso, boolean disponivel) {
 
@@ -30,7 +30,7 @@ public class EmprestimoService {
             exemplo "double multaTotal = atraso * multaDiaria;" — ou
             transformá-la em uma constante de classe, se o valor for fixo.
         */
-        double multaDiaria = 2.50;
+        //double multaDiaria = 2.50;
 
         /*
             (3) Não é um defeito apontado pelo PMD — é a regra de negócio
@@ -41,9 +41,9 @@ public class EmprestimoService {
         
         if (atraso > 0 && atraso <= 7) {
             
-            //double multaDiaria = 2.50;
-            //double multaTotal = atraso * multaDiaria;
-            //LOGGER.log(Level.INFO, "Multa calculada: R$ {0}", multaTotal);
+            double multaDiaria = 2.50;
+            double multaTotal = atraso * multaDiaria;
+            LOGGER.log(Level.INFO, "Multa calculada: R$ {0}", multaTotal);
             return disponivel;
         }
 
@@ -55,7 +55,7 @@ public class EmprestimoService {
                 CORREÇÃO: nunca deixar o catch vazio. Registrar o erro em
                 log, por exemplo:
             */
-            //LOGGER.log(Level.SEVERE, "Falha ao salvar o registro.", e);
+            LOGGER.log(Level.SEVERE, "Falha ao salvar o registro.", e);
             
         }
 
@@ -65,9 +65,9 @@ public class EmprestimoService {
             java.util.logging (LOGGER.info("..."));
             ou SLF4J
         */
-        //LOGGER.info("Empréstimo processado."); 
+        LOGGER.info("Empréstimo processado."); 
         
-        System.out.println("Empréstimo processado.");
+        //System.out.println("Empréstimo processado.");
         return false;
     }
 
