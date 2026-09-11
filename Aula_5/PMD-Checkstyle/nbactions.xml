@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-pmd:check</actionName>
+            <displayName>pmd:check</displayName>
+            <goals>
+                <goal>pmd:check</goal>
+            </goals>
+        </action>
+    </actions>
