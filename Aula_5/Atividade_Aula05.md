@@ -91,10 +91,10 @@ Apliquem os três critérios abaixo — todos já vistos na Aula 05 — para ana
 
 ## 4. Tarefa
 
-1. Apliquem o checklist da seção 3.1 ao código do Pull Request.
-2. Para cada defeito encontrado, preencham a tabela abaixo.
+1. Aplique o checklist da seção 3.1 ao código do Pull Request.
+2. Para cada defeito encontrado, preencha a tabela abaixo.
 3. Na coluna **Quem detecta?**, indiquem se o defeito seria pego por uma ferramenta de análise estática (PMD/Checkstyle), apenas por um revisor humano, ou por ambos.
-4. Escrevam um comentário construtivo, como se estivessem respondendo ao desenvolvedor diretamente no Pull Request.
+4. Escreva um comentário construtivo, como se estivessem respondendo ao desenvolvedor diretamente no Pull Request.
 
 ### Tabela de defeitos
 
@@ -107,6 +107,4 @@ Apliquem os três critérios abaixo — todos já vistos na Aula 05 — para ana
 
 ---
 
-## 5. Conexão com o Projeto A3
 
-O resultado desta atividade serve de base para a **Seção 3 (Processo de Inspeção e Revisão de Código)** do relatório final do Projeto Integrador A3. Cada grupo deve reaplicar esta mesma tabela e metodologia ao próprio sistema desenvolvido no semestre.
